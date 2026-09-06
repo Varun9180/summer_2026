@@ -1,0 +1,16 @@
+case,agent_a,agent_b,cls_a,cls_b,pair_type,model_outcome,model_pattern,NM,SDD,min_dist_m,dur_s
+0,2351,3443,cyclist,pedestrian,ped_veh,agent_b_first,Unclear Advantage,0.4323,0.3502,4.72,1.9
+1,2785,2812,cyclist,pedestrian,ped_veh,agent_a_first,Unclear Advantage,-4.0822,1.3507,1.0,1.7
+2,959,960,motorcycle,cyclist,cyc_veh,agent_a_first,Unclear Advantage,1.0733,0.9005,6.52,1.5
+3,780,2405,cyclist,cyclist,cyc_veh,agent_a_first,Unclear Advantage,1.8134,0.1501,7.32,1.6
+4,41,78,pedestrian,lcv,ped_veh,agent_b_first,Chaotic Negotiation,4.8069,0.1501,1.94,3.2
+5,3097,3389,car,pedestrian,ped_veh,agent_b_first,Chaotic Negotiation,0.2565,0.0,3.3,2.0
+6,1362,1371,car,pedestrian,ped_veh,agent_b_first,Chaotic Negotiation,0.0416,0.05,1.19,2.5
+7,629,3097,pedestrian,car,ped_veh,agent_a_first,Chaotic Negotiation,7.7122,0.0,9.74,1.8
+8,1202,1213,cyclist,lcv,cyc_veh,agent_b_first,Agent B Priority — Stable,4.7456,1.3007,5.91,3.2
+9,733,2263,lcv,pedestrian,ped_veh,agent_a_first,Unclear Advantage,3.7361,2.2012,4.75,3.2
+10,2351,2352,cyclist,lcv,cyc_veh,unresolved_conflict_zone,Unclear Advantage,1.0689,0.2001,2.7,2.9
+11,510,1930,cyclist,pedestrian,ped_veh,unresolved_conflict_zone,Unknown,2.0559,0.5503,3.62,2.5
+12,1337,2942,cyclist,pedestrian,ped_veh,agent_a_first,Unclear Advantage,0.5995,1.751,2.25,3.4
+13,1195,1213,cyclist,lcv,cyc_veh,agent_a_first,Gap-Forced Merge,-24.1968,0.1001,9.68,1.6
+14,1429,1466,pedestrian,truck,ped_veh,agent_b_first,Unclear Advantage,3.1224,1.4008,9.59,1.6

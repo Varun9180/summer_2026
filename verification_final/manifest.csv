@@ -1,0 +1,21 @@
+case,agent_a,agent_b,cls_a,cls_b,pair_type,model_outcome,model_pattern,NM,SDD,min_dist_m,dur_s
+0,837,888,car,cyclist,cyc_veh,agent_b_first,Gap-Forced Merge,-5.008,0.2001,9.18,1.5
+1,456,1774,pedestrian,lcv,ped_veh,agent_b_first,Insufficient Yield,5.0811,2.6515,5.99,1.9
+2,473,1768,cyclist,pedestrian,ped_veh,agent_a_first,Unclear Advantage,1.0033,0.4502,4.1,2.0
+3,1255,1628,cyclist,pedestrian,ped_veh,agent_a_first,Unclear Advantage,0.5815,0.1501,7.26,1.6
+4,837,877,car,pedestrian,ped_veh,agent_b_first,Insufficient Yield,16.9544,0.1001,4.21,1.1
+5,517,556,lcv,pedestrian,ped_veh,agent_b_first,Contested Non-Yielding,-4.1157,0.0,8.0,2.3
+6,849,865,lcv,lcv,veh_veh,agent_b_first,Gap-Forced Merge,-2.2226,0.1001,4.11,4.1
+7,456,496,pedestrian,cyclist,ped_veh,agent_b_first,Contested Non-Yielding,-3.327,0.05,9.47,2.4
+8,485,489,pedestrian,cyclist,ped_veh,agent_b_first,Insufficient Yield,4.0253,0.6504,8.56,2.8
+9,370,1740,lcv,pedestrian,ped_veh,agent_a_first,Proactive Yielding,2.1638,0.8004,4.69,2.8
+10,456,495,pedestrian,cyclist,ped_veh,agent_b_first,Insufficient Yield,3.4138,1.0506,1.78,2.4
+11,712,1853,lcv,pedestrian,ped_veh,agent_a_first,Proactive Yielding,5.2644,2.0511,9.9,3.6
+12,471,1768,cyclist,pedestrian,ped_veh,agent_a_first,Marginal Yield,13.5278,0.05,9.41,1.9
+13,829,831,car,motorcycle,veh_veh,agent_b_first,Unclear Advantage,-0.1228,3.702,8.37,3.9
+14,882,1904,car,car,veh_veh,unresolved_conflict_zone,Contested Right-of-Way,-2.1394,0.0,6.94,1.4
+15,1263,1272,lcv,pedestrian,ped_veh,agent_a_first,Proactive Yielding,3.0857,0.2501,4.51,2.2
+16,673,1495,cyclist,lcv,cyc_veh,unresolved_conflict_zone,Agent B Priority — Stable,1.0936,0.2001,2.07,3.5
+17,1263,1265,lcv,car,veh_veh,agent_a_first,Unclear Advantage,0.706,1.2007,3.22,6.4
+18,551,1799,car,pedestrian,ped_veh,agent_b_first,Unclear Advantage,-1.0409,1.1506,8.3,6.0
+19,712,730,lcv,cyclist,cyc_veh,agent_a_first,Agent A Priority — Stable,2.6794,1.3507,9.31,1.5
