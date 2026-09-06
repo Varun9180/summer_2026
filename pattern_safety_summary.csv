@@ -1,0 +1,28 @@
+pair_type,pattern,PEB_final,PET,TTC_min,TTC_poly_min,Max_CCI,n
+cyc_veh,Agent A Priority — Marginal,0.327,0.5,0.65,0.5,0.287,1
+cyc_veh,Agent A Priority — Stable,1.433,0.217,1.172,0.941,0.017,18
+cyc_veh,Agent B Priority — Marginal,0.162,0.0,1.03,0.737,0.11,4
+cyc_veh,Agent B Priority — Stable,0.603,0.069,0.908,1.706,0.111,16
+cyc_veh,Chaotic Negotiation,0.718,0.156,0.775,0.35,0.035,8
+cyc_veh,Contested Right-of-Way,0.651,0.167,0.857,0.588,0.069,6
+cyc_veh,Gap-Forced Merge,2.044,0.179,1.044,1.093,0.031,42
+cyc_veh,Unclear Advantage,1.515,0.19,0.885,1.11,0.094,43
+ped_veh,Assertive Non-Yielding,3.234,0.197,1.452,1.341,0.03,65
+ped_veh,Chaotic Negotiation,1.295,0.557,0.815,1.135,0.089,64
+ped_veh,Contested Non-Yielding,2.837,0.354,1.506,1.22,0.015,30
+ped_veh,Gap-Driven Crossing,3.24,0.174,1.775,1.62,0.041,47
+ped_veh,Insufficient Yield,2.137,0.321,1.485,1.191,0.038,58
+ped_veh,Late Pedestrian Surge,3.112,0.123,1.306,1.012,0.048,11
+ped_veh,Marginal Yield,2.742,0.152,1.706,1.213,0.005,25
+ped_veh,Pedestrian Hesitation,0.892,0.33,1.507,0.995,0.013,17
+ped_veh,Proactive Yielding,3.962,0.241,1.642,1.334,0.035,84
+ped_veh,Unclear Advantage,2.133,0.535,1.053,1.007,0.094,212
+ped_veh,Unknown,0.167,0.225,0.698,0.893,0.154,55
+veh_veh,Agent A Priority — Marginal,1.126,0.308,1.369,1.925,0.101,6
+veh_veh,Agent A Priority — Stable,1.586,0.229,1.011,0.95,0.071,7
+veh_veh,Agent B Priority — Marginal,0.851,0.51,0.576,0.662,0.098,5
+veh_veh,Agent B Priority — Stable,0.592,0.0,0.834,0.617,0.077,7
+veh_veh,Chaotic Negotiation,0.955,0.191,0.644,0.971,0.119,11
+veh_veh,Contested Right-of-Way,2.374,0.058,2.261,0.792,0.062,6
+veh_veh,Gap-Forced Merge,2.147,0.253,1.508,0.8,0.066,21
+veh_veh,Unclear Advantage,0.969,0.195,0.811,0.867,0.1,37

@@ -1,0 +1,10 @@
+comparison_table.csv written
+  TTC_min defined 906/906; poly TTC 591/906 (65.2%); CCI 906/906; TTC_min<1.5s: 662
+Case-study pair: lcv #359 vs pedestrian #1402
+shared frames: 46 (2.60 s, t=93.00..95.60 s)
+min centroid (point-mass) distance: 2.992 m at t=93.20 s
+min rotated-polygon footprint clearance: 0.507 m at t=93.35 s
+polygon critical instant leads point-mass minimum by -0.15 s
+point-mass 2.0 m alert would NEVER fire; footprint clearance crosses 1.5 m critical threshold: True
+
+fig_polygon_vs_pointmass.png written
