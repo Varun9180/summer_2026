@@ -1,0 +1,29 @@
+case,agent_a,agent_b,cls_a,cls_b,pair_type,outcome,pattern,NM,SDD,PET,TTC_min,Max_CCI,frames,min_dist_m
+0,1142,1147,car,car,veh_veh,agent_a_first,Agent A Priority — Marginal,22.3237,0.05,0.8004,1.1042,0.00151,4946-4988,4.15
+1,492,499,lcv,cyclist,cyc_veh,agent_a_first,Agent A Priority — Marginal,418.846,0.05,0.0,44.3446,0.00019,2557-2579,9.81
+2,953,959,auto_rickshaw,motorcycle,veh_veh,agent_a_first,Agent A Priority — Stable,14.6813,1.2007,0.0,2.6861,0.0,4152-4200,13.85
+3,1167,1186,lcv,car,veh_veh,agent_a_first,Agent A Priority — Stable,153.8165,0.2501,0.0,67.6333,0.02429,5102-5139,7.68
+4,780,788,cyclist,cyclist,cyc_veh,unresolved_conflict_zone,Agent B Priority — Marginal,12.9361,0.0,0.0,4.6639,0.0,3462-3497,12.42
+5,919,956,cyclist,lcv,cyc_veh,agent_b_first,Agent B Priority — Marginal,93.0683,0.1001,0.0,3.8164,0.00059,4140-4181,7.37
+6,539,592,lcv,lcv,veh_veh,agent_b_first,Agent B Priority — Stable,49.0688,2.1012,0.0,7.6791,0.00179,2806-2850,5.63
+7,1186,1243,car,car,veh_veh,agent_b_first,Agent B Priority — Stable,7.4052,3.5019,0.8505,1.4155,0.00169,5277-5511,8.17
+8,637,781,pedestrian,cyclist,ped_veh,agent_b_first,Assertive Non-Yielding,-72.5963,2.5014,1.2007,30.6461,0.0,3449-3509,6.86
+9,865,868,pedestrian,lcv,ped_veh,agent_b_first,Assertive Non-Yielding,-156.087,0.1001,0.2501,8.9413,0.0,3815-3837,11.14
+10,932,938,car,pedestrian,ped_veh,agent_a_first,Chaotic Negotiation,-0.6716,0.0,1.5509,0.5641,0.00053,4096-4212,4.95
+11,964,969,lcv,motorcycle,veh_veh,agent_a_first,Chaotic Negotiation,1.2154,0.05,0.0,0.9779,7e-05,4181-4207,10.75
+12,365,393,pedestrian,lcv,ped_veh,agent_b_first,Contested Non-Yielding,-111.0193,0.0,0.0,5.3886,1e-05,1936-1987,10.15
+13,484,492,pedestrian,lcv,ped_veh,agent_b_first,Contested Non-Yielding,-68.8906,0.0,0.0,2.1719,0.0,2496-2518,6.62
+14,1234,1245,lcv,car,veh_veh,agent_b_first,Contested Right-of-Way,-9.5376,0.05,0.0,1.0127,0.37329,5278-5315,3.71
+15,497,504,lcv,lcv,veh_veh,unresolved_conflict_zone,Contested Right-of-Way,-22.0993,0.05,0.0,1.7502,0.02032,2568-2590,7.77
+16,1178,1188,pedestrian,lcv,ped_veh,agent_a_first,Gap-Driven Crossing,-66.6489,0.6003,0.0,65.8031,0.0,5106-5166,14.39
+17,1323,1354,cyclist,pedestrian,ped_veh,agent_a_first,Gap-Driven Crossing,-43.1895,0.9505,0.2501,3.4685,5e-05,5812-5832,4.58
+18,117,122,truck,truck,veh_veh,agent_b_first,Gap-Forced Merge,-32.5357,1.4508,0.0,5.534,0.23984,443-519,4.45
+19,1077,1087,truck,lcv,veh_veh,agent_b_first,Gap-Forced Merge,-10.5249,1.801,0.9505,1.9891,0.0,4699-4800,14.46
+20,390,570,car,pedestrian,ped_veh,agent_b_first,Insufficient Yield,43.5023,3.0517,0.0,8.7682,5e-05,2725-2942,4.01
+21,337,338,pedestrian,cyclist,ped_veh,agent_b_first,Insufficient Yield,53.7454,0.1001,1.1506,2.0113,0.11332,1642-1736,2.05
+22,1106,1110,car,pedestrian,ped_veh,agent_a_first,Proactive Yielding,73.2347,0.1001,0.1001,11.0283,0.0,4798-4823,8.0
+23,154,176,pedestrian,car,ped_veh,agent_a_first,Proactive Yielding,39.9467,0.1501,0.2001,7.7477,9e-05,726-757,3.89
+24,350,354,pedestrian,lcv,ped_veh,agent_b_first,Unclear Advantage,1.4763,1.7009,0.2001,1.6394,0.1182,1690-1760,3.03
+25,482,517,pedestrian,lcv,ped_veh,agent_b_first,Unclear Advantage,1.8491,1.0006,1.1506,0.9836,0.01025,2600-2707,4.77
+26,968,969,pedestrian,motorcycle,ped_veh,unresolved_conflict_zone,Unknown,0.2725,0.6003,0.0,0.5643,0.24823,4181-4206,1.64
+27,101,127,pedestrian,bus,ped_veh,unresolved_conflict_zone,Unknown,-4.1689,0.0,0.0,2.6028,0.00074,457-581,6.05
