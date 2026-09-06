@@ -1,0 +1,29 @@
+case,agent_a,agent_b,model_outcome,model_pattern,my_outcome,outcome_match,pattern_plausible,notes
+0,1142,1147,agent_a_first,Agent A Priority — Marginal,a_first,YES,YES,SUV leads; e-rickshaw follows; clean leader-follower
+1,492,499,agent_a_first,Agent A Priority — Marginal,a_first,YES,YES,motorcycle passes island ahead of slow cyclist
+2,953,959,agent_a_first,Agent A Priority — Stable,unjudgeable,EXCLUDED,NO,agents ~14m apart in crowd; no visible engagement
+3,1167,1186,agent_a_first,Agent A Priority — Stable,b_first,NO,NO,car drove through while scooter hung back upstream
+4,780,788,unresolved_conflict_zone,Agent B Priority — Marginal,indeterminate,YES,PARTIAL,benign cyclist crossing; no decisive resolution = unresolved ok
+5,919,956,agent_b_first,Agent B Priority — Marginal,a_first,NO,NO,A rides past while B nearly static at curb
+6,539,592,agent_b_first,Agent B Priority — Stable,b_first,YES,YES,A static scooter at curb; B travels through and away
+7,1186,1243,agent_b_first,Agent B Priority — Stable,b_first,YES,YES,van waits at island; rickshaw crosses in front
+8,637,781,agent_b_first,Assertive Non-Yielding,b_first,YES,YES,cyclist threads past walking peds without yielding
+9,865,868,agent_b_first,Assertive Non-Yielding,unjudgeable,EXCLUDED,NO,ped static at island; delivery bike ~11-20m away; no engagement
+10,932,938,agent_a_first,Chaotic Negotiation,unjudgeable,EXCLUDED,UNVERIFIABLE,dense crowd + ID flicker; cannot isolate the pair
+11,964,969,agent_a_first,Chaotic Negotiation,b_first,NO,NO,B rides through; A creeps at curb; no chaos visible
+12,365,393,agent_b_first,Contested Non-Yielding,b_first,YES,YES,motorcycle forces through past standing ped group
+13,484,492,agent_b_first,Contested Non-Yielding,b_first,YES,PARTIAL,motorcycle sweeps past; ped near van; non-yield pass
+14,1234,1245,agent_b_first,Contested Right-of-Way,b_first,YES,YES,two e-rickshaws very tight pass (CCI 0.37)
+15,497,504,unresolved_conflict_zone,Contested Right-of-Way,a_first,NO,NO,A clearly leads; B enters behind; looked resolved
+16,1178,1188,agent_a_first,Gap-Driven Crossing,unjudgeable,EXCLUDED,NO,opposite sides of central island; straight-line proximity only
+17,1323,1354,agent_a_first,Gap-Driven Crossing,a_first,YES,PARTIAL,group crosses past static B (B possibly false detection)
+18,117,122,agent_b_first,Gap-Forced Merge,b_first,YES,PARTIAL,Bolero passes parked e-rickshaw
+19,1077,1087,agent_b_first,Gap-Forced Merge,invalid,INVALID,INVALID,agent A is a ghost track on a static plant in the island
+20,390,570,agent_b_first,Insufficient Yield,a_first,NO,NO,A (ID-drifted cyclist) passes static marshal; class/ID noise
+21,337,338,agent_b_first,Insufficient Yield,b_first,YES,NO,companions walking side-by-side; no yield situation at all
+22,1106,1110,agent_a_first,Proactive Yielding,b_first,NO,NO,ped crossed car's path first; car proceeded after
+23,154,176,agent_a_first,Proactive Yielding,unjudgeable,EXCLUDED,NO,marshal and cargo cart both essentially static
+24,350,354,agent_b_first,Unclear Advantage,a_first,NO,PARTIAL,ped crossed before moto arrived; benign mutual pass
+25,482,517,agent_b_first,Unclear Advantage,a_first,NO,PARTIAL,ped group ahead; scooter curves in behind
+26,968,969,unresolved_conflict_zone,Unknown,invalid,INVALID,INVALID,A is B's own pillion passenger (self-pair); model at least says Unknown
+27,101,127,unresolved_conflict_zone,Unknown,indeterminate,YES,YES,no negotiation; Bolero drives away; Unknown is apt
