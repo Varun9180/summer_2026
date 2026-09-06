@@ -1,0 +1,46 @@
+==========================================================================
+ABLATION / DEGENERACY / COMPLEXITY EVALUATION
+==========================================================================
+
+[1] ABLATION AGAINST CLASSICAL MODELLING ASSUMPTIONS
+  sample of 394 classified encounters
+  (a) AGENT GEOMETRY  point-mass centroid vs true rotated footprint
+      mean clearance overstatement by point-mass : 1.93 m
+      median                                     : 1.66 m
+      encounters where point-mass 2.0 m alert never fires
+        but true footprint clearance < 1.5 m     : 50/394 (12.7%)  [missed by point-mass]
+      critical instant identified earlier by footprint model: 139/394 (35.3%), mean lead 0.41 s
+  (b) MOTION MODEL  constant-acceleration vs constant-velocity sweep
+      polygon-sweep TTC defined: accel 42.6%  vs  const-vel 31.5%
+      where both defined (n=91): mean |Δ TTC| = 0.52 s; const-vel is later (more optimistic) in 63.7% of cases
+  (c) COLLISION TEST  polygon footprints vs point-mass
+      sweep predicts a collision: polygon 42.6%  vs point-mass 0.0% (point-mass requires exact co-location, so it almost never fires)
+
+[2] SAT AXIS SELECTION: first-separating-axis vs max-over-axes
+  756 frame samples; first-axis rule understates true separation in 66.5% of samples
+  mean understatement 2.33 m, max 30.42 m
+  restricted to safety-relevant range (true separation < 5 m, n=315): understated in 55.6% of samples, mean 0.53 m
+
+[3] DEGENERACY: definedness of classical TTC vs CCI by regime
+              stratifier            regime   n  ttc_poly_defined_pct  cci_defined_pct
+         min speed (m/s)             <0.25 220                  74.1            100.0
+         min speed (m/s)          0.25-0.5 129                  69.8            100.0
+         min speed (m/s)             0.5-1 299                  63.5            100.0
+         min speed (m/s)               1-2 124                  55.6            100.0
+         min speed (m/s)               2-5 130                  59.2            100.0
+         min speed (m/s)                >5   4                  50.0            100.0
+heading difference (deg)   0-15 (parallel)  56                  66.1            100.0
+heading difference (deg)             15-30  65                  63.1            100.0
+heading difference (deg)             30-60 141                  73.0            100.0
+heading difference (deg)            60-120 442                  64.5            100.0
+heading difference (deg)           120-165 183                  60.7            100.0
+heading difference (deg) 165-180 (opposed)  19                  73.7            100.0
+
+[4] COMPUTATIONAL COST (CPU, this machine)
+  concurrency: mean 9.5, median 9, p95 17, peak 22 agents/frame
+  worst-case pair evaluations per frame at peak: 231
+  measured: SAT separation 85.7 us/call, CCI 0.9 us/call
+  per-frame risk-engine estimate at peak concurrency: 20.00 ms/frame (50 fps headroom, risk engine only)
+  trajectory state resident in memory: 5.0 MB for 1141 tracks / 57216 samples
+
+wrote ablation_table.csv, sat_axis_check.csv, degeneracy_table.csv, complexity_table.csv, fig_degeneracy.png, benchmark_summary.txt

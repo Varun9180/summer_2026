@@ -1,0 +1,13 @@
+stratifier,regime,n,ttc_poly_defined_pct,cci_defined_pct
+min speed (m/s),<0.25,220,74.1,100.0
+min speed (m/s),0.25-0.5,129,69.8,100.0
+min speed (m/s),0.5-1,299,63.5,100.0
+min speed (m/s),1-2,124,55.6,100.0
+min speed (m/s),2-5,130,59.2,100.0
+min speed (m/s),>5,4,50.0,100.0
+heading difference (deg),0-15 (parallel),56,66.1,100.0
+heading difference (deg),15-30,65,63.1,100.0
+heading difference (deg),30-60,141,73.0,100.0
+heading difference (deg),60-120,442,64.5,100.0
+heading difference (deg),120-165,183,60.7,100.0
+heading difference (deg),165-180 (opposed),19,73.7,100.0

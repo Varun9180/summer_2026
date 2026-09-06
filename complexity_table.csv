@@ -1,0 +1,8 @@
+quantity,value,unit
+SAT separation,85.67,us per agent pair
+CCI evaluation,0.92,us per agent pair
+mean concurrency,9.5,agents/frame
+peak concurrency,22.0,agents/frame
+peak pair evaluations,231.0,pairs/frame
+risk engine at peak,20.0,ms/frame
+trajectory memory,5.0,MB

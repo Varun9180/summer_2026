@@ -1,0 +1,7 @@
+Metric,Binary Point/Boundary TTC,Continuous Gaussian CCI (proposed)
+Output representation,Binary (safe / conflict) at a fixed threshold,"Continuous score in [0, 1], every frame"
+Agent representation,Point / straight-line conflict-zone boundary,Rotated 2D polygon + bivariate Gaussian occupancy field
+Motion model,Constant-acceleration boundary-crossing time (kinematic solve),Constant-acceleration PINN-smoothed trajectory (same kinematics)
+Defined (non-NaN) for how many of 906 interactions,TTC_min: 906/906  |  predictive polygon-sweep TTC: 591/906 (65%),"906/906 (100%) -- never NaN, no geometric-degeneracy failure mode"
+Fails to return a value when...,"headings near-parallel (sin C -> 0), either speed < 0.05 m/s, non-converging geometry, or no forward polygon overlap predicted within the 10 s horizon",never (closed-form exp(); defined for any finite position pair)
+Interactions flagged critical (n=906),662 (TTC_min < 1.5 s),"graded score; mean Max_CCI by pair type: {'cyc_veh': 0.0642, 'ped_veh': 0.0667, 'veh_veh': 0.0891}"

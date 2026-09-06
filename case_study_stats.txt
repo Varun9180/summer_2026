@@ -1,0 +1,6 @@
+Case-study pair: lcv #359 vs pedestrian #1402
+shared frames: 46 (2.60 s, t=93.00..95.60 s)
+min centroid (point-mass) distance: 2.992 m at t=93.20 s
+min rotated-polygon footprint clearance: 0.507 m at t=93.35 s
+polygon critical instant leads point-mass minimum by -0.15 s
+point-mass 2.0 m alert would NEVER fire; footprint clearance crosses 1.5 m critical threshold: True
